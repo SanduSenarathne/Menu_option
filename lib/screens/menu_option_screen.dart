@@ -85,7 +85,6 @@ class _MenuScreenState extends State<MenuScreen> {
   }
 
   void _navigateToOption(BuildContext context, int optionIndex) {
-    print("Navigating to option $optionIndex");
     setState(() {
       _selectedOption = optionIndex;
     });
